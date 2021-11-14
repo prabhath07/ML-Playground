@@ -1,4 +1,6 @@
-matplotlib @ file:///D:/bld/matplotlib-suite_1611858873832/work
-numpy @ file:///C:/ci/numpy_and_numpy_base_1603468620949/work
-scikit-learn @ file:///C:/ci/scikit-learn_1614446716349/work
+
+matplotlib==3.3.4
+numpy==1.19.2
+scikit-learn==0.24.1
 streamlit==0.88.0
+
