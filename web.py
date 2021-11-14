@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import cross_val_score
 # ---------------------------------Side Bar ----------------------------------------
-st.sidebar.markdown("# ML - Playground 1.0")
+st.sidebar.markdown("# ML - Playground")
 
 dataset  = st.sidebar.selectbox('dataset',('Moons','Concentric Circles','Gaussian Quantiles','hastie_10_2'))
 
