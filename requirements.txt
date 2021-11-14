@@ -1,0 +1,4 @@
+matplotlib @ file:///D:/bld/matplotlib-suite_1611858873832/work
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603468620949/work
+scikit-learn @ file:///C:/ci/scikit-learn_1614446716349/work
+streamlit==0.88.0
