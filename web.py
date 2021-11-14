@@ -180,7 +180,7 @@ elif model=='Random Forest':
         plt.ylabel("Col2")
         orig.empty()
         orig2 = st.pyplot(fig)
-        st.subheader("Accuracy for this LR Model is  " + str(round(accuracy_score(y_test, y_pred), 2)))
+        st.subheader("Accuracy for this RF Model is  " + str(round(accuracy_score(y_test, y_pred), 2)))
 
     
 elif model=='Ensemble':
@@ -283,4 +283,4 @@ elif model=='SVM':
         orig2 = st.pyplot(fig)
         st.subheader("Accuracy of SVM model is "+ str(round(accuracy_score(y_test, y_pred), 2)))
     
-
+st.markdown('A project by Prabhath_Akula')
